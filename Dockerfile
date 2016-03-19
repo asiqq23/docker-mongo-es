@@ -8,4 +8,6 @@ ADD . /opt/mongo-connector/
 
 WORKDIR /opt/mongo-connector
 
+#TODO add pip install elastic-doc-manager and run mongo-connector
+
 CMD ["/opt/mongo-connector/run.py"]
